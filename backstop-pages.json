@@ -4,19 +4,19 @@
       "label": "Planet4 Croatia act page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/aktiviraj-se/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 Croatia explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/istrazi/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 Croatia privacy and cookies page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/o-nama/zastita-podataka/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     }
   ]
 }
