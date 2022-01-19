@@ -1,13 +1,14 @@
 {
-    "name": "greenpeace/planet4-croatia",
-    "description": "Greenpeace P4 Croatia",
-    "license": "MIT",
-    "require": {
-    },
-    "scripts": {
-        "core:language": "wp language core install hr; wp language core activate hr",
-        "site:custom": [
-            "@core:language"
-        ]
-    }
+  "name": "greenpeace/planet4-croatia",
+  "description": "Greenpeace P4 Croatia",
+  "license": "MIT",
+  "require": {
+    "greenpeace/planet4-child-theme-croatia" : "dev-main"
+  },
+  "scripts": {
+    "core:language": "wp language core install hr; wp language core activate hr",
+    "site:custom": [
+      "@core:language"
+    ]
+  }
 }
